@@ -1,0 +1,35 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .about-bg-image {
+    width: 500px;
+    height: 450px;
+    padding-top: 100px;
+    object-fit: cover;
+    padding-right: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+  
+    .about-content
+  
+    {
+      width: 50%;
+    }
+    .about-bg-image{
+      width: 250px;
+    }
+  
+  }
