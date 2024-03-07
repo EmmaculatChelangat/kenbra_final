@@ -12,9 +12,9 @@
   
   .about-bg-image {
     width: 500px;
-    height: 450px;
+    height: 500px;
     padding-top: 100px;
-    object-fit: cover;
+    object-fit: contain;
     padding-right: 50px;
   }
   

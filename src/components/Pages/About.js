@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/About.css'
-import Img1 from '../../Images/Img1.jpg'
+import about from '../../Images/about.png'
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
         <p>To provide solutions to corporate problems affecting organizations at National and International level</p>
       </div>
       <div className="about-image">
-        <img className='about-bg-image' src={Img1} alt="About us" />
+        <img className='about-bg-image' src={about} alt="About us" />
       </div>
     </div>
     </>

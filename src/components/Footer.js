@@ -5,7 +5,7 @@ import "./Footer.css";
 function Footer() {
   // to download the document
   const handleDownload = () => {
-    const documentUrl = process.env.PUBLIC_URL + "/Document/KENBRA.docx";
+    const documentUrl = process.env.PUBLIC_URL + "/Document/KENBRA LIMITED FINAL.pdf"
     window.open(documentUrl, "_blank");
   };
 
@@ -31,7 +31,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Our Services</h2>
-            <Link onClick={handleDownload}>Capability Statement</Link>
+            <Link                    onClick={handleDownload}>Capability Statement</Link>
             <Link onClick={handleDownload}>Consultancy Services</Link>
             <Link onClick={handleDownload}>Training & Programmes</Link>
             <Link onClick={handleDownload}>
