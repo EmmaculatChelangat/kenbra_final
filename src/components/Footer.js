@@ -31,7 +31,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Our Services</h2>
-            <Link                    onClick={handleDownload}>Capability Statement</Link>
+            <Link onClick={handleDownload}>Capability Statement</Link>
             <Link onClick={handleDownload}>Consultancy Services</Link>
             <Link onClick={handleDownload}>Training & Programmes</Link>
             <Link onClick={handleDownload}>
@@ -42,11 +42,11 @@ function Footer() {
             <h2>Contact Us</h2>
 
             <Link
-              to={"mailto:chelangatemmaculat244@gmail.com"}
+              to={"mailto:Info@kenbra.co.ke"}
               target="_blank"
               aria-label="Email"
             >
-              Email:kenbralimited@gmail.com
+              Email:Info@kenbra.co.ke
             </Link>
 
             <Link to={"tel:+254758484550"} target="_blank" aria-label="Phone">
@@ -69,7 +69,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link email"
-              to={"mailto:kenbralimited@gmail.com"}
+              to={"mailto:Info@kenbra.co.ke"}
               target="_blank"
               aria-label="Email"
             >
