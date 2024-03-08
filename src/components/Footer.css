@@ -80,6 +80,7 @@
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
+    
   }
   
   .footer-link-items a:hover {
@@ -162,4 +163,8 @@
   }
   
   @media screen and (max-width: 768px) {
+    .footer-link-items a{
+      font-size: 14px;
+    }
+    
   }
